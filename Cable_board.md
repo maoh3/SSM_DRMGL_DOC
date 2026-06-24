@@ -9,11 +9,13 @@ Some “compatible” OpenPort 1.3 clones may not support this behavior.
 
 (board schema)
 
-<img width="473" height="478" alt="image" src="https://github.com/user-attachments/assets/e30ba663-a021-4664-a275-c841d600ec4f" />
+<img width="473" height="478" alt="image" src="https://github.com/user-attachments/assets/2c96d275-66f2-4cc8-9402-8b5d2d68303f" />
+
 
 SUBARU Car need 12V pull up line i add OBD 16pin(BATT), but 8pin(ACC) is useful.
 
-<img width="1073" height="592" alt="image" src="https://github.com/user-attachments/assets/8c130750-541d-4d15-85ee-e000bd8770a8" />
+<img width="1073" height="592" alt="image" src="https://github.com/user-attachments/assets/40893532-9deb-44d4-91a7-5f7a516e7703" />
+
 
 ### About FTDI Cables
 Many inexpensive FTDI cables sold on Amazon may use **non‑genuine or third‑party FTDI‑compatible chipsets**.
