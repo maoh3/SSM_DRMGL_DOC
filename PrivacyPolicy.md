@@ -65,7 +65,7 @@ Updates will be reflected in this document.
 ## 7. Contact
 For questions about this policy, please contact the developer via GitHub Issues:
 
-https://github.com/YOUR_GITHUB/ssm-drmgl
+https://github.com/maoh3/SSM_DRMGL_DOC/issues
 
 
 # SSM DRMGL プライバシーポリシー
@@ -136,4 +136,4 @@ HUD 表示および動画録画のために使用します。
 プライバシーポリシーに関するお問い合わせは、  
 GitHub Issues よりご連絡ください：
 
-https://github.com/YOUR_GITHUB/ssm-drmgl
+https://github.com/maoh3/SSM_DRMGL_DOC/issues
