@@ -54,18 +54,18 @@ The following MPROG settings are required:
 
 (See screenshots below.)
 
-<img width="918" height="725" alt="FTDI_USB_Setting001" src="https://github.com/user-attachments/assets/608a83c0-465d-4091-8c68-27a351d96f76" />
+<img width="918" height="725" alt="FTDI_USB_Setting001" src="https://github.com/user-attachments/assets/c655eaf4-b2d0-412a-8538-0d12eba966f1" />
 
-<img width="920" height="722" alt="FTDI_USB_Setting002" src="https://github.com/user-attachments/assets/2f92f099-59cd-43e3-a5c2-a69f0591d2f5" />
+<img width="920" height="722" alt="FTDI_USB_Setting002" src="https://github.com/user-attachments/assets/760765fb-e85f-4b68-ab80-49c80a9a4d68" />
 
-<img width="916" height="726" alt="FTDI_USB_Setting003" src="https://github.com/user-attachments/assets/a6840708-6664-4d51-8625-28f56a2556cc" />
+<img width="916" height="726" alt="FTDI_USB_Setting003" src="https://github.com/user-attachments/assets/aa56fb9f-0c5f-4e50-b29d-f95376b78004" />
 
-<img width="915" height="725" alt="FTDI_USB_Setting004" src="https://github.com/user-attachments/assets/7daef095-1301-4d77-b361-33b67a7192a4" />
+<img width="915" height="725" alt="FTDI_USB_Setting004" src="https://github.com/user-attachments/assets/2b2828fc-d809-476e-87f2-495d0e9f076c" />
 
 **Important:** TXD invert mode must be enabled.
-<img width="918" height="727" alt="FTDI_USB_Setting005" src="https://github.com/user-attachments/assets/309375fc-b1db-4e5a-b485-981517afdc89" />
+<img width="918" height="727" alt="FTDI_USB_Setting005" src="https://github.com/user-attachments/assets/29898e4b-4275-4481-a70f-0b5c263682f2" />
 
-<img width="920" height="726" alt="FTDI_USB_Setting006" src="https://github.com/user-attachments/assets/4b5f7e8c-f3cb-4cba-b546-9c43bb497847" />
+<img width="920" height="726" alt="FTDI_USB_Setting006" src="https://github.com/user-attachments/assets/7535d7f1-58dc-462f-bc90-f7033e3e616c" />
 
 ## ケーブル情報（日本語）
 
