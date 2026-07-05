@@ -1,5 +1,6 @@
 # SSM DRMGL  
-Android Dashboard, Logger & Recorder for Subaru SSM2 Vehicles
+Android Dashboard, Logger & Recorder for Subaru SSM2 Vehicles  
+**Confirmed working on Subaru Impreza WRX/STI (GDB, EJ20)**  
 
 SSM DRMGL is an Android dashboard, logger, and video recorder designed for Subaru vehicles using the **SSM2 protocol**.  
 It provides real‑time ECU monitoring, multi‑PID logging, gauge display, and video recording with overlay.
@@ -225,8 +226,8 @@ Bug reports & feature requests:
 
 # SSM DRMGL（日本語版）
 
-SSM DRMGL は、Subaru 車両向け **SSM2 プロトコル専用**  
-Android ダッシュボード & ロガーアプリです。
+Subaru SSM2 車両向け Android ダッシュボード & ロガー  
+**動作確認済み：Impreza WRX/STI（GDB・EJ20）**
 
 リアルタイム ECU モニタリング、CSV ロギング、ゲージ表示、  
 オーバーレイ付き動画録画などが可能です。
