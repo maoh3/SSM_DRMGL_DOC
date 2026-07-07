@@ -1,3 +1,31 @@
+# 📚 Documentation Index (GitHub Pages)
+
+- Demo (Screenshots & Examples)  
+  [https://maoh3.github.io/SSM_DRMGL_DOC/demo/demo.html](https://github.com/maoh3/SSM_DRMGL_DOC/blob/main/demo.md)
+
+- Cable Board (K-Line / FTDI Wiring Guide)  
+  [https://maoh3.github.io/SSM_DRMGL_DOC/cable_board/cable_board.html](https://github.com/maoh3/SSM_DRMGL_DOC/blob/main/Cable_board.md)
+
+- Manual  
+  https://maoh3.github.io/SSM_DRMGL_DOC/Manual.html
+
+- Download APK  
+  https://maoh3.github.io/SSM_DRMGL_DOC/Download.html
+
+- Support  
+  https://maoh3.github.io/SSM_DRMGL_DOC/Support.html
+
+- SupportProject  
+  https://maoh3.github.io/SSM_DRMGL_DOC/SupportProject.html
+
+- Release Notes  
+  https://maoh3.github.io/SSM_DRMGL_DOC/ReleaseNotes.html
+
+- Privacy Policy  
+  https://maoh3.github.io/SSM_DRMGL_DOC/PrivacyPolicy.html
+
+---
+
 # SSM DRMGL  
 Android Dashboard, Logger & Recorder for Subaru SSM2 Vehicles  
 **Confirmed working on Subaru Impreza WRX/STI (GDB, EJ20)**  
@@ -91,7 +119,8 @@ Bluetooth ELM327 devices are **not supported**.
 ---
 
 ## ⚠ ISO9141‑2 / KWP2000 — Initialization Only
-The following **communication initialization routines** are implemented:
+
+Implemented initialization routines:
 
 - 5‑Baud Init  
 - FastInit  
@@ -192,7 +221,8 @@ CameraX → SurfaceTexture → OpenGL → MediaCodec → MP4
 SSM DRMGL is a personal hobby project.  
 Donations do **not** affect support priority.
 
-See: **SupportProject.md**
+SupportProject:  
+https://maoh3.github.io/SSM_DRMGL_DOC/SupportProject.html
 
 ---
 
@@ -210,15 +240,15 @@ The developer is not responsible for:
 - Accidents or incidents caused by distraction  
 - Any damage resulting from app usage
 
-See: **PrivacyPolicy.md** for details.
+Privacy Policy:  
+https://maoh3.github.io/SSM_DRMGL_DOC/PrivacyPolicy.html
 
 ---
 
 # 🐛 Issues
 
-Bug reports & feature requests:
-
-👉 https://github.com/maoh3/SSM_DRMGL_DOC/issues
+Bug reports & feature requests:  
+https://github.com/maoh3/SSM_DRMGL_DOC/issues
 
 ---
 
@@ -339,4 +369,4 @@ https://github.com/maoh3/SSM_DRMGL_DOC/issues
 
 # 🔒 プライバシーポリシー
 
-https://maoh3.github.io/SSM_DRMGL_DOC/PrivacyPolicy
+https://maoh3.github.io/SSM_DRMGL_DOC/PrivacyPolicy.html
