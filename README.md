@@ -2,7 +2,7 @@
 
 <img width="360" height="200" alt="ezgif-53b295e254941383" src="https://github.com/user-attachments/assets/00c0b493-be20-4a39-99b4-2983aa9fc0f1" />
 
-
+[日本語セクションはこちら](#日本語)
 
 # 📚 Documentation Index (GitHub Pages)
 
@@ -257,6 +257,7 @@ Bug reports & feature requests:
 https://github.com/maoh3/SSM_DRMGL_DOC/issues
 
 ---
+## 日本語
 
 # 🇯🇵 日本語版 README
 
