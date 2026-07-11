@@ -1,6 +1,8 @@
 # 🤝 Support SSM DRMGL  
 (English + Japanese)
 
+[日本語セクションはこちら](#日本語)
+
 ---
 
 ## 🇺🇸 English Version
@@ -41,6 +43,8 @@ This option works on any device and does not require Google Play.
 ---
 
 ---
+
+## 日本語
 
 ## 🇯🇵 日本語版
 
