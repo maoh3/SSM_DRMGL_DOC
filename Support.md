@@ -1,5 +1,7 @@
 # 🛠 Support Policy — SSM DRMGL
 
+[日本語セクションはこちら](#日本語)
+
 This document describes the **support policy**, **issue reporting rules**, and **limitations** for SSM DRMGL.  
 SSM DRMGL is a personal hobby project developed in spare time, and support is provided on a best‑effort basis.
 
@@ -170,6 +172,8 @@ Issues can be submitted here:
 👉 [GitHub Issues](ca://s?q=Open_GitHub_Issues)
 
 ---
+
+## 日本語
 
 # 🇯🇵 日本語版 Support Policy
 
