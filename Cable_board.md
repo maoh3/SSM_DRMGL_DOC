@@ -1,5 +1,7 @@
 ## Cable Information
 
+[日本語セクションはこちら](#日本語)
+
 ### Using OpenPort 1.3
 When connecting via SSM2, the **Tactrix OpenPort 1.3 (compatible)** cable works without any special configuration.
 
@@ -66,6 +68,8 @@ The following MPROG settings are required:
 <img width="918" height="727" alt="FTDI_USB_Setting005" src="https://github.com/user-attachments/assets/29898e4b-4275-4481-a70f-0b5c263682f2" />
 
 <img width="920" height="726" alt="FTDI_USB_Setting006" src="https://github.com/user-attachments/assets/7535d7f1-58dc-462f-bc90-f7033e3e616c" />
+
+## 日本語
 
 ## ケーブル情報（日本語）
 
