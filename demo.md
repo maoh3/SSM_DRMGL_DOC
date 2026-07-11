@@ -1,5 +1,6 @@
 # 🎥 SSM DRMGL – HUD Demo  
 (English + Japanese)
+
 [日本語セクションはこちら](#日本語)
 
 
@@ -55,6 +56,7 @@ This will represent the complete HUD experience with all sensors and overlays fu
 ---
 
 ---
+
 ## 日本語
 
 ## **日本語版**
