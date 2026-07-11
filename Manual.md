@@ -1,5 +1,7 @@
 # SSM DRMGL Manual (English Version)
 
+[日本語セクションはこちら](#日本語)
+
 Subaru SSM2 compatible HUD / LAP / ACC / REC application.  
 This document explains installation, connection, screen descriptions, logging, recording, and experimental protocols.
 
@@ -305,6 +307,8 @@ This document explains installation, connection, screen descriptions, logging, r
   - ISO/KWP initialization adjustments (experimental)
 
 ---
+
+## 日本語
 
 # SSM DRMGL マニュアル（日本語版）
 
