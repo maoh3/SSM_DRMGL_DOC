@@ -1,5 +1,7 @@
 # Privacy Policy for SSM DRMGL
 
+[日本語セクションはこちら](#日本語)
+
 Last updated: 2026-06-24
 
 SSM DRMGL is a personal hobby project developed by an individual developer.
@@ -67,6 +69,7 @@ For questions about this policy, please contact the developer via GitHub Issues:
 
 https://github.com/maoh3/SSM_DRMGL_DOC/issues
 
+## 日本語
 
 # SSM DRMGL プライバシーポリシー
 
