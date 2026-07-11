@@ -1,3 +1,9 @@
+# 🚙 SSM DRMGL Sample GDB-C 
+
+<img width="360" height="200" alt="ezgif-53b295e254941383" src="https://github.com/user-attachments/assets/00c0b493-be20-4a39-99b4-2983aa9fc0f1" />
+
+
+
 # 📚 Documentation Index (GitHub Pages)
 
 - Demo (Screenshots & Examples)  
