@@ -1,5 +1,7 @@
 # 📥 Download SSM DRMGL (APK)
 
+[日本語セクションはこちら](#日本語)
+
 SSM DRMGL is a personal hobby project developed in my spare time.  
 This page provides the latest APK for direct download via GitHub Releases.
 
@@ -73,6 +75,7 @@ Support is optional and helps maintain future updates.
 ---
 
 ---
+## 日本語
 
 # 🇯🇵 日本語版
 
