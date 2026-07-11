@@ -100,8 +100,8 @@ This release focuses on stable SSM2 communication, HUD improvements, recording p
 
 # 📥 Download
 
-APK (v0.90 First Test Release):  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0090_1st_testr-release/SSM_DRMGL_v0.90.apk
+👉 **[SSM DRMGL APK （v0.90）](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0090_1st_testr-release/SSM_DRMGL_00.90_testrelease.apk)**
+
 
 Release Page:  
 https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0090_1st_testr-release
@@ -225,8 +225,8 @@ SSM DRMGL は Subaru 車両向けの **SSM2 ダッシュボード & ロガーア
 
 # 📥 ダウンロード
 
-APK（v0.90 初回テスト版）  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0090_1st_testr-release/SSM_DRMGL_v0.90.apk
+👉 **[SSM DRMGL APK をダウンロード（v0.90 初回テストリリース）](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0090_1st_testr-release/SSM_DRMGL_00.90_testrelease.apk)**
+
 
 リリースページ  
 https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0090_1st_testr-release
