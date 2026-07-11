@@ -1,4 +1,7 @@
 # 📄 SSM DRMGL — Release Notes  
+
+[日本語セクションはこちら](#日本語)
+
 **Version:** v0.90  
 **Release:** 1st Test Release  
 **Date:** 2026‑06
@@ -119,6 +122,8 @@ https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0090_1st_testr-rel
 - Use at your own risk
 
 ---
+
+## 日本語
 
 # 🇯🇵 日本語版 Release Notes
 
