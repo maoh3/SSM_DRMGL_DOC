@@ -1,82 +1,66 @@
-# 📄 SSM DRMGL — Release Notes  
+# 📄 SSM DRMGL — Release Notes
 
 [日本語セクションはこちら](#日本語)
 
-**Version:** v0.90  
-**Release:** 1st Test Release  
-**Date:** 2026‑06
+**Version:** v0.91  
+**Release:** 2nd Release  
+**Date:** 2026‑07
 
 SSM DRMGL is a dashboard & logger application for Subaru vehicles using the **SSM2 protocol**.  
-This release focuses on stable SSM2 communication, HUD improvements, recording pipeline, and new measurement tools.
+This release focuses on HUD improvements, G‑Ball upgrades, ACC/LAP stability, and preliminary ELM327 support.
 
 ---
 
-# 🚀 New Features / Improvements (v0.90)
+# 🚀 New Features / Improvements (v0.91)
 
-## ✔ Stable SSM2 (4800 bps)
-- BF Init / A8 Init stabilized  
-- Fast / Slow MultiRead optimized  
-- Verified on FireHD & Xperia devices  
-- Reduced load during multi‑PID polling
+## ✔ Revision Display Added
+- HUD now shows **Rev 0.91**  
+- Helps users confirm the running version directly on-screen
 
-## ✔ HUD / Gauge Improvements
-- Unified alpha transparency  
-- Reduced rendering load  
-- Added RST‑HLD (Min/Max reset)
+## ✔ AFR Gauge Simplified
+- Removed **Max/Min hold** feature  
+- Gauge now focuses on the **practical AFR operating range**  
+- Improved real‑time monitoring visibility
 
-## ✔ ACC Measurement (0–100 km/h)
-- Measures time & distance  
-- Vehicle weight input  
-- Estimated horsepower calculation  
-- Best ACC stored
+## ✔ Knock Indicator Updated (IAM → LIT)
+- IAM removed  
+- New indicators: **LIT + FBKC**  
+- Normal ranges:  
+  - **LIT: 60–65**  
+  - **FBKC: 0–10**
 
-## ✔ LAP Timer
-- Long‑press to register start point  
-- Auto lap detection  
-- Best lap stored  
-- Improved visibility
+## ✔ G‑Ball Major Upgrade
+- Added **LPF (Low‑Pass Filter)** to reduce road noise  
+- Added **Street (0.3G)** and **Circuit (1.0G)** sensitivity modes  
+- Added **front/back** and **left/right inversion** options  
+  - Allows users to compensate for phone orientation differences  
+- More stable and customizable G‑force visualization
 
-## ✔ Recording (REC)
-- CameraX → GL → MediaCodec → MP4 pipeline  
-- Overlay rendering  
-- Selectable resolution (480p / 720p / 1080p)  
-- Stable on FireHD & Xperia
+## ✔ ACC Measurement Improvements
+- Horsepower calculation method revised  
+- Previous “instant HP” was too localized  
+- New method provides more stable readings  
+- Developer tested with **0–50 km/h** due to environment limitations
 
-## ✔ Gear Position Estimation
-- Gear ratios configurable  
-- Real‑time gear calculation
+## ✔ LAP Mode Fixes & Enhancements
+- Fixed issue where LAP could end prematurely before crossing the start line  
+- Added **start‑line blinking indicator** (3 seconds) when crossing  
+- More reliable lap detection and visual feedback
 
-## ✔ USB‑OTG / FTDI
-- Stable FTDI communication  
-- DTR / RTS control implemented  
-- OpenPort 1.3 compatible
-
----
-
-# 🧪 Experimental Features (Disabled by Default)
-
-## ⚠ ISO9141‑2 (5Baud Init)
-- Init implemented  
-- ECU response not confirmed  
-- Disabled for safety
-
-## ⚠ KWP2000 (10400 bps)
-- FastInit / 5Baud / StartComm implemented  
-- No response on Subaru kei cars  
-- Disabled due to shared K‑Line with **SRS ECU**
-
-## ⚠ Meter Unit (K‑Line)
-- Subaru‑specific protocol  
-- Under investigation
+## ✔ Preliminary ELM327 Support (Debug Only)
+- Added basic ELM327 logging in Debug screen  
+- Based on Subaru R2 (EN07) testing  
+- Mode01 decoding not implemented  
+- Volunteers welcome (see issue #06)
 
 ---
 
 # 🛠 Fixed Issues
-- FTDI LatencyTimer tuning  
-- HUD rendering optimization  
-- Frame sync improvements  
-- USB auto‑connect reliability  
-- Settings UI cleanup
+- ACC/LAP mode switching stability  
+- HUD transparency consistency  
+- Start‑line registration reliability  
+- G‑Ball smoothing improvements  
+- Minor UI cleanup
 
 ---
 
@@ -86,7 +70,7 @@ This release focuses on stable SSM2 communication, HUD improvements, recording p
 - ISO/KWP behavior varies by vehicle  
 - Meter protocol differs by model/year  
 - SSM1 not implemented  
-- Device heating during long recording
+- ELM327 support is experimental (Debug only)
 
 ---
 
@@ -94,17 +78,18 @@ This release focuses on stable SSM2 communication, HUD improvements, recording p
 - FireHD‑10  
 - Xperia 10 III  
 - FTDI (FT232RL)  
-- OpenPort 1.3 (compatible)
+- OpenPort 1.3 (compatible)  
+- ELM327 (Bluetooth) — Debug only
 
 ---
 
 # 📥 Download
 
-👉 **[SSM DRMGL APK （v0.90）](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0090_1st_testr-release/SSM_DRMGL_00.90_testrelease.apk)**
-
+👉 **SSM DRMGL APK (v0.91)**  
+https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk
 
 Release Page:  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0090_1st_testr-release
+https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0091_release
 
 ---
 
@@ -128,90 +113,75 @@ https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0090_1st_testr-rel
 # 🇯🇵 日本語版 Release Notes
 
 # 📄 SSM DRMGL — リリースノート  
-**バージョン:** v0.90  
-**リリース:** 初回テスト版  
-**日付:** 2026‑06
+**バージョン:** v0.91  
+**リリース:** 第2版  
+**日付:** 2026‑07
 
 SSM DRMGL は Subaru 車両向けの **SSM2 ダッシュボード & ロガーアプリ**です。  
-本リリースでは SSM2 の安定化、HUD 改善、録画パイプライン、ACC 計測などが利用可能です。
+本リリースでは HUD 改善、G‑Ball の大幅アップデート、ACC/LAP の安定化、  
+ELM327 の仮対応などを追加しています。
 
 ---
 
-# 🚀 新機能 / 改善点（v0.90）
+# 🚀 新機能 / 改善点（v0.91）
 
-## ✔ SSM2（4800bps）安定化
-- BF / A8 初期化の安定化  
-- Fast / Slow MultiRead の最適化  
-- FireHD / Xperia で安定動作  
-- Multi‑PID の負荷軽減
+## ✔ Revision 表示を追加
+- HUD に **Rev 0.91** を表示  
+- 実行中のバージョンが一目で確認可能
 
-## ✔ HUD / ゲージ改善
-- α値を統一  
-- 描画負荷を軽減  
-- RST‑HLD（Min/Max リセット）追加
+## ✔ AFR ゲージの簡素化
+- **Max/Min ホールド機能を削除**  
+- 通常使用領域にフォーカスしたゲージ表示へ変更  
+- モニタリングがより実用的に
 
-## ✔ ACC 計測（0–100 km/h）
-- 加速時間・距離を計測  
-- 車重入力で推定馬力算出  
-- ベスト ACC を保持
+## ✔ ノック指標を IAM → LIT に変更
+- IAM を廃止  
+- 新指標：**LIT + FBKC**  
+- 正常範囲：  
+  - **LIT：60〜65**  
+  - **FBKC：0〜10**
 
-## ✔ ラップ計測（LAP）
-- 長押しでスタート地点登録  
-- 自動ラップ検出  
-- ベストラップ保持  
-- UI 改善
+## ✔ G‑Ball の大幅アップデート
+- **LPF（ローパスフィルタ）追加**で路面ノイズを低減  
+- **Street（0.3G）/ Circuit（1.0G）** の感度切替  
+- **前後・左右反転機能**を追加  
+  - 端末の置き方の個人差を吸収  
+- より滑らかで安定した G 表示に
 
-## ✔ 録画（REC）
-- CameraX → GL → MediaCodec → MP4  
-- オーバーレイ表示  
-- 解像度選択（480p / 720p / 1080p）  
-- FireHD / Xperia で動作確認
+## ✔ ACC 計測の改善
+- 馬力計算方式を安定化  
+- 旧方式（瞬間馬力）は局所的すぎたため変更  
+- 開発者は **0〜50 km/h** で検証
 
-## ✔ ギアポジション推定
-- ギア比設定  
-- 速度と RPM から推定
+## ✔ LAP モードの修正と強化
+- スタートライン通過前に LAP が切れる不具合を修正  
+- スタートライン通過時に **3 秒間点滅**する機能を追加  
+- ラップ検出の信頼性向上
 
-## ✔ USB‑OTG / FTDI
-- FTDI 安定動作  
-- DTR / RTS 制御  
-- OpenPort 1.3 互換
-
----
-
-# 🧪 実験的機能（デフォルト無効）
-
-## ⚠ ISO9141‑2（5Baud）
-- 初期化は実装済み  
-- ECU 応答未確認  
-- 安全のため無効化
-
-## ⚠ KWP2000（10400bps）
-- FastInit / 5Baud / StartComm 実装済み  
-- Subaru 軽では応答なし  
-- **SRS ECU と K‑Line 共有のため危険 → 無効化**
-
-## ⚠ メーターユニット（K‑Line）
-- Subaru 独自プロトコル  
-- 調査中
+## ✔ ELM327 の仮対応（Debug のみ）
+- Debug 画面でログ確認が可能  
+- R2（EN07）ベースの簡易実装  
+- Mode01 の解析は未実装  
+- 協力者募集中（issue #06）
 
 ---
 
 # 🛠 修正点
-- FTDI LatencyTimer の調整  
-- HUD 描画負荷の軽減  
-- フレーム同期改善  
-- USB 自動接続の安定化  
-- 設定画面の整理
+- ACC/LAP モード切替の安定化  
+- HUD α値の統一  
+- スタートライン登録の信頼性向上  
+- G‑Ball の平滑化  
+- UI の軽微な整理
 
 ---
 
 # ⚠ 既知の問題
-- 録画中にフレームドロップ  
+- 録画中のフレームドロップ  
 - FTDI ケーブルによる遅延差  
 - ISO/KWP は車種依存  
 - メータープロトコルは車種差が大きい  
 - SSM1 未実装  
-- 長時間録画で端末温度上昇
+- ELM327 は仮対応（Debug のみ）
 
 ---
 
@@ -219,17 +189,18 @@ SSM DRMGL は Subaru 車両向けの **SSM2 ダッシュボード & ロガーア
 - FireHD‑10  
 - Xperia 10 III  
 - FTDI（FT232RL）  
-- OpenPort 1.3（互換）
+- OpenPort 1.3（互換）  
+- ELM327（Bluetooth）※Debug のみ
 
 ---
 
 # 📥 ダウンロード
 
-👉 **[SSM DRMGL APK をダウンロード（v0.90 初回テストリリース）](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0090_1st_testr-release/SSM_DRMGL_00.90_testrelease.apk)**
-
+👉 **SSM DRMGL APK（v0.91）**  
+https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk
 
 リリースページ  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0090_1st_testr-release
+https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0091_release
 
 ---
 
