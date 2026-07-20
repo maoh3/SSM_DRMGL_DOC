@@ -86,7 +86,7 @@ This release focuses on HUD improvements, G‑Ball upgrades, ACC/LAP stability, 
 # 📥 Download
 
 👉 **SSM DRMGL APK (v0.91)**  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk
+[https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_testrelease.apk)
 
 Release Page:  
 https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0091_release
@@ -197,7 +197,7 @@ ELM327 の仮対応などを追加しています。
 # 📥 ダウンロード
 
 👉 **SSM DRMGL APK（v0.91）**  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk
+[https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_testrelease.apk)
 
 リリースページ  
 https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0091_release
