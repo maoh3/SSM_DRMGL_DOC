@@ -31,7 +31,7 @@ The developer is also not responsible for **accidents or issues caused by distra
 ## 📥 Latest APK Download (v0.91)
 
 👉 **Download SSM DRMGL v0.91**  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk
+[https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_testrelease.apk)
 
 👉 **View Release Page (v0.91)**  
 https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0091_release
@@ -113,7 +113,7 @@ HUD 表示や操作による **視界妨害・注意散漫などに起因する�
 ## 📥 最新 APK ダウンロード（v0.91）
 
 👉 **SSM DRMGL APK をダウンロード（v0.91）**  
-https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk
+[https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_release.apk](https://github.com/maoh3/SSM_DRMGL_DOC/releases/download/SSM_DRMGL_0091_release/SSM_DRMGL_00.91_testrelease.apk)
 
 👉 **リリースページを見る（v0.91）**  
 https://github.com/maoh3/SSM_DRMGL_DOC/releases/tag/SSM_DRMGL_0091_release
