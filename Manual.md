@@ -33,16 +33,21 @@ This document explains installation, connection, screen descriptions, logging, r
 
 # 2. Connection
 
-## 2.1 SSM2 Connection
+### 2.1 SSM2 Connection
 - Connect the USB-Serial adapter to the Android device.  
 - Provide 12V / GND to the SSM2 cable.  
 - Press **Cnct** in the app.  
 - BF / A8 initialization will run; if successful, ECU data (PID) will be shown on the HUD.
 
-## 2.2 If Connection Fails
+> [!IMPORTANT]
+> **Reconnection Timing (10-Second Rule)**:  
+> When disconnecting (tapping **Stop**) and reconnecting, **please wait at least 10 seconds before tapping Cnct again**.  
+> The vehicle's ECU maintains its active diagnostic session for approximately 5 seconds after communication stops. Reconnecting too quickly will cause the ECU to reject the new initialization sequence.
+
+### 2.2 If Connection Fails
 - Check that 12V and GND are correctly wired to the cable.  
 - Confirm that the USB-Serial adapter is recognized by the device.  
-- Try turning ignition OFF → ON (IG-OFF → IG-ON).  
+- **Wait 10 seconds** before trying to connect again, or try turning ignition OFF → ON (IG-OFF → IG-ON).  
 - Open the **Debug** screen and check initialization logs (BF / A8, TX/RX).
 
 ---
@@ -343,17 +348,22 @@ Subaru SSM2 対応 HUD / LAP / ACC / REC アプリです。
 
 # 2. 接続方法
 
-## 2.1 SSM2 接続
-- USB-Serial を端末に接続します。  
-- SSM2 ケーブルに 12V / GND を入力します。  
+### 2.1 SSM2 接続
+- USB-Serial アダプタを端末に接続します。  
+- ケーブルに 12V / GND を供給します。  
 - アプリで **Cnct** を押します。  
-- BF / A8 初期化が実行され、成功すると HUD に ECU データ（PID）が表示されます。
+- BF / A8 初期化が走り、成功すると HUD に ECU データ（PID）が表示されます。
 
-## 2.2 接続できない場合
-- ケーブルの 12V / GND が正しく配線されているか確認します。  
-- USB-Serial が端末に認識されているか確認します。  
-- IG-OFF → IG-ON を試します。  
-- **Debug** 画面で初期化ログ（BF / A8、TX/RX）を確認します。
+> [!IMPORTANT]
+> **再接続時の注意（10秒ルール）**:  
+> 通信を切断（**Stop**）した後に再度接続する場合は、**10秒程度待ってから再度 Cnct を押してください**。  
+> 車両の ECU は無通信になってから約5秒間は前回の診断セッションを保持する仕様となっています。切断後すぐに再接続すると、ECU が初期化コマンドを受け付けず失敗の原因となります。
+
+### 2.2 接続できない場合
+- ケーブルに 12V / GND が正しく配線されているか確認してください。  
+- USB-Serial アダプタが端末に認識されているか確認してください。  
+- **切断から10秒以上待って再接続**するか、イグニッションを OFF → ON（IG-OFF → IG-ON）してみてください。  
+- **Debug** 画面を開き、初期化ログ（BF / A8、TX/RX）を確認してください。
 
 ---
 
