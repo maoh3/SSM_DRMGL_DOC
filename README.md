@@ -126,7 +126,12 @@ D : Drive / R : Record / M : Monitor / G : Gauge / L : Logger
 ## ✔ SSM2 (4800 bps) — Fully Supported
 - BF Init / A8 Init  
 - Fast / Slow MultiRead  
-- Stable on FireHD & Xperia
+- Stable on FireHD & Xperia  
+
+> [!NOTE]
+> **ECU Reconnection Interval (10-Second Rule)**:  
+> When disconnecting (tapping **Stop**) and reconnecting, **please wait at least 10 seconds before tapping Cnct again**.  
+> The Subaru ECU maintains its diagnostic session for ~5 seconds after communication ceases. Reconnecting immediately will cause initialization to fail.
 
 ---
 
@@ -272,7 +277,11 @@ Subaru SSM2 車両向け Android ダッシュボード & ロガー
 
 # 📌 現在の安定状況（2026/07）
 
-- SSM2（4800bps） → 安定動作  
+- SSM2（4800bps） → 安定動作
+> [!NOTE]
+> **再接続時の注意（10秒ルール）**:  
+> 通信を切断（**Stop**）した後に再度接続する場合は、**10秒程度待ってから再度 Cnct を押してください**。  
+> 車両の ECU は通信途絶後も約5秒間は前回の診断セッションを保持する仕様となっています。切断後すぐに再接続すると、ECU が初期化パケットを受け付けず失敗の原因となります。
 - ISO9141‑2 / KWP2000 → 通信初期化のみ（デフォルト無効）  
 - SSM1 / メーターユニット → 調査中  
 - 実験的 USB‑Serial → デフォルト無効  
